@@ -992,6 +992,14 @@ describe('DataSource._resolveConnector', function() {
       // Assume loopback-connector-abc doesn't exist
       return null;
     }
+
+    // TISPR: Allow to load connectors from @tispr package <<<
+    if (name === '@tispr/loopback-connector-abc') {
+      // Assume loopback-connector-abc doesn't exist
+      return null;
+    }
+    // >>>
+
     return {
       name: name,
     };
