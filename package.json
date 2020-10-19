@@ -1,5 +1,5 @@
 {
-  "name": "loopback-datasource-juggler",
+  "name": "@tispr/loopback-datasource-juggler",
   "version": "4.25.0",
   "publishConfig": {
     "export-tests": true
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/loopback-datasource-juggler"
+    "url": "https://github.com/tispr/loopback-datasource-juggler"
   },
   "main": "index.js",
   "types": "index.d.ts",
